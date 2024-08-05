@@ -11,7 +11,7 @@ import QtQuick.Controls 2.15
 import QtQuick.Layouts
 
 Item {
-    id: item1
+    id: mainScreen
     width: 640
     height: 480
 
@@ -26,6 +26,11 @@ Item {
             color: "#ffffff"
             Layout.fillHeight: true
             Layout.fillWidth: true
+
+            RowLayout {
+                id: rowLayout
+                anchors.fill: parent
+            }
         }
 
         TabBar {

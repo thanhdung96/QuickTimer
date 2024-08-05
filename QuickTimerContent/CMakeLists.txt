@@ -9,11 +9,13 @@ qt6_add_qml_module(QuickTimerContent
     VERSION 1.0
     RESOURCE_PREFIX "/qt/qml"
 	QML_FILES
-		"TimerForm.ui.qml"
 		"App.qml"
-		"Timer.qml"
+		"TimerCard.qml"
+		"TimerCardUI.ui.qml"
 		"MainScreen.qml"
-		"MainScreen.ui.qml"
+		"MainScreenUI.ui.qml"
+		"TimerFormUI.ui.qml"
+		"TimerForm.qml"
 )
 
 
