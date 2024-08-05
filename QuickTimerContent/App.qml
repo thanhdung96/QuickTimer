@@ -3,13 +3,18 @@
 
 import QtQuick 6.5
 import QuickTimer
+import QtQuick.Layouts
+import QtQuick.Controls 6.5
 
 Window {
+    id: window
+    width: 640
+    height: 480
     visible: true
     title: "QuickTimer"
 
-    TimerForm {
-        id: timerForm
+    MainScreen {
+        id: mainScreen
         x: 0
         y: 0
     }

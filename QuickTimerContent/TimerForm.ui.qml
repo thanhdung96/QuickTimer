@@ -10,8 +10,8 @@ import QtQuick 2.15
 import QtQuick.Controls 2.15
 
 Item {
-    width: 1024
-    height: 768
+    width: 640
+    height: 480
 
     property alias button: button
 

@@ -6,8 +6,8 @@
 #include <QGuiApplication>
 #include "qqmlextensionplugin.h"
 
-Q_IMPORT_QML_PLUGIN(QuickTimerContentPlugin)
 Q_IMPORT_QML_PLUGIN(QuickTimerPlugin)
+Q_IMPORT_QML_PLUGIN(QuickTimerContentPlugin)
 
 const char mainQmlFile[] = "qrc:/qt/qml/QuickTimerContent/App.qml";
 
