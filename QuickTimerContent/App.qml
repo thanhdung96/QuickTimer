@@ -8,15 +8,21 @@ import QtQuick.Controls 6.5
 
 Window {
     id: window
-    width: 640
-    height: 480
+    width: 800
+    height: 600
     visible: true
+
     title: "QuickTimer"
 
-    MainScreen {
-        id: mainScreen
-        x: 0
-        y: 0
+    Rectangle {
+        id: rectangle
+        color: "#424242"
+        anchors.fill: parent
+
+        MainScreen {
+            id: mainScreen
+            anchors.fill: parent
+        }
     }
 }
 

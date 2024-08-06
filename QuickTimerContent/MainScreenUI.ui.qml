@@ -6,7 +6,7 @@ It is supposed to be strictly declarative and only uses a subset of QML. If you 
 this file manually, you might introduce QML code that is not supported by Qt Design Studio.
 Check out https://doc.qt.io/qtcreator/creator-quick-ui-forms.html for details on .ui.qml files.
 */
-import QtQuick 2.15
+import QtQuick
 import QtQuick.Controls 2.15
 import QtQuick.Layouts
 
@@ -21,9 +21,9 @@ Item {
 
         Rectangle {
             id: rectangle
-            width: 200
-            height: 200
-            color: "#ffffff"
+            color: "#A3A3A3"
+            bottomLeftRadius: 20
+            bottomRightRadius: 20
             Layout.fillHeight: true
             Layout.fillWidth: true
 
@@ -39,6 +39,11 @@ Item {
             anchors.left: parent.left
             anchors.right: parent.right
             Layout.alignment: Qt.AlignLeft | Qt.AlignTop
+            background: Rectangle {
+                color: "#A3A3A3"
+                topLeftRadius: 20
+                topRightRadius: 20
+            }
 
             TabButton {
                 id: tabButton
