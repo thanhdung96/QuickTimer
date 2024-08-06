@@ -1,2 +1,8 @@
 *.user*
 CMakeLists.txt.user
+App/autogen/environment.h
+QuickTimer/CMakeLists.txt
+QuickTimerContent/CMakeLists.txt
+qds.cmake
+QuickTimer.qmlproject.qtds*
+QuickTimer.qmlproject.qtds
