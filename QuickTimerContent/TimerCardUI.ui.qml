@@ -8,8 +8,59 @@ Check out https://doc.qt.io/qtcreator/creator-quick-ui-forms.html for details on
 */
 import QtQuick 2.15
 import QtQuick.Controls 2.15
+import QtQuick.Layouts
 
 Item {
     width: 170
     height: 170
+
+    Rectangle {
+        id: rectangle
+        color: "#C9C9C9"
+        anchors.fill: parent
+        radius: 20
+
+        ColumnLayout {
+            id: columnLayout1
+            anchors.fill: parent
+
+            ProgressBar {
+                id: progressBar
+                width: 0
+                height: 0
+                value: 0.5
+                Layout.fillHeight: true
+                Layout.fillWidth: true
+            }
+
+            Label {
+                id: label
+                text: qsTr("Label")
+                horizontalAlignment: Text.AlignHCenter
+                Layout.fillHeight: true
+                Layout.fillWidth: true
+            }
+
+            RowLayout {
+                id: rowLayout
+                width: 100
+                height: 100
+                Layout.fillHeight: true
+                Layout.fillWidth: true
+
+                Button {
+                    id: button
+                    text: qsTr("Button")
+                    Layout.fillWidth: true
+                }
+
+                Button {
+                    id: button1
+                    text: qsTr("Button")
+                    highlighted: false
+                    Layout.fillWidth: true
+                }
+            }
+        }
+    }
 }
