@@ -9,7 +9,7 @@ Check out https://doc.qt.io/qtcreator/creator-quick-ui-forms.html for details on
 import QtQuick
 import QtQuick.Controls 2.15
 import QtQuick.Layouts
-import "Components" as Components
+import "../CustomComponents" as Components
 
 Item {
     id: mainScreen

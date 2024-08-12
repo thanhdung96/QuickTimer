@@ -5,7 +5,7 @@ import QtQuick 6.5
 import QuickTimer
 import QtQuick.Layouts
 import QtQuick.Controls 6.5
-import "Screens" as Screens
+import "CustomScreens" as Screens
 
 Window {
     id: window
