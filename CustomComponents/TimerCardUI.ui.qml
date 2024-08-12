@@ -17,8 +17,8 @@ Item {
     Rectangle {
         id: rectangle
         color: "#C9C9C9"
-        anchors.fill: parent
         radius: 20
+        anchors.fill: parent
 
         ColumnLayout {
             id: columnLayout1
@@ -48,13 +48,13 @@ Item {
                 Layout.fillHeight: true
                 Layout.fillWidth: true
 
-                Button {
+                RoundedButton {
                     id: button
                     text: qsTr("Button")
                     Layout.fillWidth: true
                 }
 
-                Button {
+                RoundedButton {
                     id: button1
                     text: qsTr("Button")
                     highlighted: false

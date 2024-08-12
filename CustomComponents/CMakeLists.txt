@@ -12,6 +12,7 @@ qt6_add_qml_module(CustomComponents
 		"TimerCardUI.ui.qml"
 		"RoundedTabButton.qml"
 		"TimerCard.qml"
+		"RoundedButton.qml"
 )
 
 
