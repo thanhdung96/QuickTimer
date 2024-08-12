@@ -9,10 +9,10 @@ qt6_add_qml_module(CustomScreens
     VERSION 1.0
     RESOURCE_PREFIX "/qt/qml"
 	QML_FILES
+		"MainScreen.qml"
 		"MainScreenUI.ui.qml"
 		"TimerForm.qml"
 		"TimerFormUI.ui.qml"
-		"MainScreen.qml"
 )
 
 

@@ -31,6 +31,10 @@ Item {
             RowLayout {
                 id: rowLayout
                 anchors.fill: parent
+
+                TimerCard {
+                    id: timerCard
+                }
             }
         }
 
