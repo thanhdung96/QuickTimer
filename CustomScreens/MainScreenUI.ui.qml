@@ -9,7 +9,7 @@ Check out https://doc.qt.io/qtcreator/creator-quick-ui-forms.html for details on
 import QtQuick
 import QtQuick.Controls 2.15
 import QtQuick.Layouts
-import "../CustomComponents" as Components
+import CustomComponents
 
 Item {
     id: mainScreen
@@ -31,18 +31,6 @@ Item {
             RowLayout {
                 id: rowLayout
                 anchors.fill: parent
-
-                Components.TimerCardUI {
-                    id: timerCardUI
-                    x: 0
-                    y: 0
-                }
-
-                Components.TimerCardUI {
-                    id: timerCardUI1
-                    x: 1095
-                    y: 568
-                }
             }
         }
 

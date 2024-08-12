@@ -9,7 +9,7 @@ Project {
     targetDirectory: "/opt/QuickTimer"
     enableCMakeGeneration: true
     widgetApp: true
-    importPaths: [ "." ]
+    importPaths: [ ".", "CustomScreens", "CustomComponents" ]
 
     qdsVersion: "4.5"
     quickVersion: "6.5"
@@ -39,6 +39,14 @@ Project {
 
     QmlFiles {
         directory: "QuickTimerContent"
+    }
+
+    QmlFiles {
+        directory: "CustomScreens"
+    }
+
+    QmlFiles {
+        directory: "CustomComponents"
     }
 
     QmlFiles {

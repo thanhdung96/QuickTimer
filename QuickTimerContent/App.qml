@@ -5,7 +5,6 @@ import QtQuick 6.5
 import QuickTimer
 import QtQuick.Layouts
 import QtQuick.Controls 6.5
-import "CustomScreens" as Screens
 
 Window {
     id: window
@@ -20,10 +19,6 @@ Window {
         color: "#424242"
         anchors.fill: parent
 
-        Screens.MainScreenUI {
-            id: mainScreen
-            anchors.fill: parent
-        }
     }
 }
 

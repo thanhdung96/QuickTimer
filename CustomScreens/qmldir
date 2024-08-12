@@ -1,0 +1,3 @@
+module CustomScreens
+MainScreen 1.0 MainScreen.qml
+TimerFormUI 1.0 TimerForm.qml
