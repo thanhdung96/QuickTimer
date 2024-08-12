@@ -43,24 +43,24 @@ Item {
             position: TabBar.Footer
             anchors.left: parent.left
             anchors.right: parent.right
+            layer.smooth: false
             Layout.alignment: Qt.AlignLeft | Qt.AlignTop
             background: Rectangle {
-                color: "#A3A3A3"
-                topLeftRadius: 20
-                topRightRadius: 20
+                opacity: 0
+                radius: 20
             }
 
-            TabButton {
+            RoundedTabButton {
                 id: tabButton
                 text: qsTr("Tab Button")
             }
 
-            TabButton {
+            RoundedTabButton {
                 id: tabButton1
                 text: qsTr("Tab Button")
             }
 
-            TabButton {
+            RoundedTabButton {
                 id: tabButton2
                 text: qsTr("Tab Button")
             }
