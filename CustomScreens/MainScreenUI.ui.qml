@@ -31,6 +31,8 @@ Item {
             RowLayout {
                 id: rowLayout
                 anchors.fill: parent
+                anchors.leftMargin: 10
+                anchors.rightMargin: 10
 
                 TimerCard {
                     id: timerCard
@@ -43,13 +45,15 @@ Item {
             position: TabBar.Footer
             anchors.left: parent.left
             anchors.right: parent.right
+            anchors.leftMargin: 5
+            anchors.rightMargin: 5
             layer.smooth: false
             Layout.alignment: Qt.AlignLeft | Qt.AlignTop
             background: Rectangle {
                 opacity: 0
                 radius: 20
             }
-
+            spacing: 10
             RoundedTabButton {
                 id: tabButton
                 text: qsTr("Tab Button")

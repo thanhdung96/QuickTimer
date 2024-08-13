@@ -23,6 +23,10 @@ Item {
         ColumnLayout {
             id: columnLayout1
             anchors.fill: parent
+            anchors.leftMargin: 5
+            anchors.rightMargin: 5
+            anchors.topMargin: 0
+            anchors.bottomMargin: 5
 
             ProgressBar {
                 id: progressBar

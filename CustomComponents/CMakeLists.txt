@@ -9,9 +9,9 @@ qt6_add_qml_module(CustomComponents
     VERSION 1.0
     RESOURCE_PREFIX "/qt/qml"
 	QML_FILES
+		"TimerCard.qml"
 		"TimerCardUI.ui.qml"
 		"RoundedTabButton.qml"
-		"TimerCard.qml"
 		"RoundedButton.qml"
 )
 
